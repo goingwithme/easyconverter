@@ -1,0 +1,40 @@
+.converted-file-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.close-button {
+  background-color: #d63384;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.close-button:hover {
+  background-color: #c2185b; /* Darker shade on hover */
+}
+
+.download-link {
+  display: flex;
+  align-items: center; /* Center icon and text vertically */
+  text-decoration: none; /* Remove underline */
+  color: #d63384; /* Color for the link */
+  background: none; /* No background for button */
+  border: none; /* No border for button */
+  cursor: pointer; /* Pointer cursor for button */
+}
+
+.download-link svg {
+  margin-right: 5px; /* Space between icon and text */
+  fill: #d63384; /* Icon color */
+}
